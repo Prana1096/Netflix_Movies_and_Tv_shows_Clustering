@@ -1,0 +1,13 @@
+This project is all about diving deep into Netflix's huge collection of movies and TV shows. The goal is to organize them into groups that make sense, with the aim of making Netflix more enjoyable for its users and keeping them subscribed.
+
+We start with a bunch of data (about 7,787 records with 11 pieces of information each). First, we deal with any missing info and then look at the data to learn interesting things.
+
+The really important parts we focus on are: who's in the movie or show, where it's from, what type it is, who directed it, how it's rated, and a short description.
+
+We use something called TFIDF (don't worry about the details) to turn this information into numbers that computers can understand. Then, to make it simpler, we use something called PCA to crunch these numbers down.
+
+We want to put the movies and shows into groups that are alike. To figure out how many groups we need, we try different methods like looking at graphs and scores. We use two ways of making groups: one called K-Means and another called Agglomerative Hierarchical.
+
+Then, we make a special chart that shows how similar each movie or show is to others. This helps us build a smart system that suggests things you might like based on what you've watched before.
+
+In the end, this project is all about making Netflix better for everyone by sorting its shows and movies into groups and suggesting new things you might enjoy based on what you already like.
